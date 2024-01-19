@@ -1,0 +1,556 @@
+@font-face{
+    font-family: NetflixSans_Regular;
+    src: url(../fonts/NetflixSans-Regular.otf);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.root{
+    background-size: cover;
+    background-position: center;
+    background-image:radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)), url(./bg.jpg);
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 900px;
+    border: 1px solid black
+  }
+
+    
+.main-container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    font-family: NetflixSans_Regular;
+    src: url(../fonts/NetflixSans-Regular.otf);
+    border-width: 0.0625rem;
+    border-radius: 0.1875rem;
+}
+
+
+.main-titles-container{
+    width: 50%;
+    color: white;
+    text-align: center;
+    line-height:normal;
+    margin-right: 75px
+    
+}
+
+.main-title{
+    font-size: 3.2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    white-space: nowrap;
+    
+    
+
+}
+
+.main-subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font: 1.2em;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    font-weight: 400;
+
+}
+
+.main-call-to-action{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+
+
+.navbar{
+    height: 10vh;
+    display: flex;
+    padding-top: 1;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.img-logo{
+    width: 16%;
+    color:red;
+    margin-left: 100px;
+    margin-top: 14px;
+}
+
+.btn-sign-in{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: white;
+    cursor: pointer;
+    width:fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    border-radius: 4px;
+    margin-right: 150px;
+    margin-top: 14px;
+    margin-left: 10px;
+    
+
+}
+
+.btn-sign-in:hover
+{
+    background-color:rgb(193, 17, 25);
+
+}
+
+.english
+{
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    color:white;
+    cursor: pointer;
+    width:fit-content;
+    font-family: NetflixSans_Regular;
+    font-size:1.2em;
+    margin-top: 14px;
+    margin-right: 10px;
+    
+    
+
+}
+.bothbutton
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.main-emial-container-input{
+    outline: none;
+    border: none;
+    color: white;
+    width: 444px;
+    height: 35px; 
+    border-radius: 5px;
+    box-shadow: inset -7px -5px rgb(0,0,0,0.5); 
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(15px);
+    padding: 10px 10px;
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+.btn-get-started{
+    cursor: pointer;
+    padding: 14px 38px;font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    height: fit-content;
+    font-weight: 700;
+    border: 2em;
+    background-color: red;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 8px;
+
+}
+.btn-get-started:hover{
+
+    background-color:rgb(193, 17, 25);
+
+
+}
+.feature {
+    border-top: 8px solid #222;
+    padding: 2rem 1rem;
+    background-color: black;
+    background-size:10%;
+    
+  }
+  
+  .feature__details {
+    text-align: end;
+   /* padding-top: 50px;*/
+    
+
+  }
+  
+  .feature__title {
+    font-size: 3.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 10px 0;
+    color:white ;
+    
+  }
+  
+  .feature__sub__title {
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color:white;
+  }
+  
+  .feature__image__container {
+    width: 40%;
+    position: relative;
+   
+  }
+  
+  .feature__image {
+    width: 100%;
+   
+  }
+  
+  .feature__backgroud__video__container {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    left: 13%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    z-index: -2;
+  }
+  
+  .feature__backgroud__video {
+    width: 100%;
+  }
+  
+  .feature__2__poster__container {
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 16em;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    height: 60px;
+    padding: 0.25rem 0.6rem;
+    gap: 15px;    
+  }
+  
+
+  .poster__container {
+    width: 20%;
+   
+    
+  }
+  
+  .poster {
+    width: 100%;
+    height: 100%;
+  }
+  .poster__details {
+    width: 60%;
+  }
+  .poster__details > h4 {
+    font-size: 13px;
+    font-weight: 500;
+  
+  }
+  .poster__details > h6 {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(63, 63, 246);
+  }
+
+  .download__gif__container {
+    width: 20%;
+    height: 100%;
+  }
+
+  .feature__3__backgroud__video__container {
+    max-width: 63%;
+    max-height: 47%;
+    z-index: -2;
+    top: 9%;
+    left: 19%;
+  }
+
+  
+.FAQ__accordian {
+    width: 100%;
+  }
+  .FAQ__title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    font-size: 18px;
+    background-color: #303030;
+    border: 1px solid #303030;
+    color: white;
+  }
+  
+  .FAQ__visible {
+    background-color: #303030;
+    border-top: 1px solid black;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+  }
+  
+  .FAQ__visible > p {
+    margin: 1rem;
+  }
+  .FAQ__list__container {
+    border-top: 8px solid #222;
+    padding: 2rem 0;
+    background-color: black;
+  }
+  .FAQ__heading {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    margin: 1rem 3rem;
+  }
+  
+  .FAQ__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .FAQ__get__started__email {
+    text-align: center;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .FAQ__get__started__email > h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 2rem 0;
+    border-radius: 5px;
+    
+
+  }
+  
+  .btn-get-starteds{
+    cursor: pointer;
+    padding: 14px 38px;font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    height: fit-content;
+    font-weight: 700;
+    border: 2em;
+    background-color: red;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 8px;
+    margin-right: 150PX;
+
+}
+.btn-get-starteds:hover{
+
+    background-color:rgb(193, 17, 25);
+
+
+}
+
+.main-emial-container-inputs{
+    outline: none;
+    border: none;
+    color: white;
+    width: 500px;
+    height: 35px; 
+    border-radius: 5px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    padding: 10px 10px;
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 170px;
+}
+
+
+
+  footer {
+    border-top: 8px solid #333;
+    padding: 2rem 1rem;
+    color: #757575;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: black;
+  
+  }
+  
+  .footer__row__2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .footer__row__1 > h4 {
+    font-size: 15px;
+    font-weight: 500;
+
+  }
+  
+  .footer__row__3 > .dropdown__container {
+    width: fit-content;
+    border: 1px solid #757575;
+    color: #757575;
+
+  }
+  
+  .footer__row__3 > .dropdown__container > .language__drop__down {
+    color: #757575;
+  }
+
+  @media (min-width: 768px) 
+  {
+    .feature {
+        padding: 4rem;
+      }
+    
+      .feature__title {
+        font-size: 35px;
+      }
+    
+      .feature__sub__title {
+        font-size: 20px;
+      }
+      .feature__2__poster__container {
+        max-width: 26em;
+        height: 85px;
+      }
+      .poster__container {
+        width: 15%;
+      }
+      .download__gif__container {
+        width: 3rem;
+        height: 3rem;
+      }
+
+      .poster__details > h4 {
+        font-size: 18px;
+      }
+      .poster__details > h6 {
+        font-size: 14px;
+      }
+      .FAQ__title {
+    font-size: 20px;
+  }
+  .FAQ__heading {
+    font-size: 38px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  .FAQ__list {
+    padding: 1rem 5rem;
+  }
+  .FAQ__get__started__email {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateX(15%);
+  }
+  }
+
+  @media (min-width: 1024px)
+  {
+    .feature {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+      }
+    
+      .feature__details {
+        text-align: left;
+        padding: 0 6rem;
+      }
+    
+      .feature__title {
+        font-size: 50px;
+      }
+
+      .poster__container {
+        width: 20%;
+      }
+
+      .feature:nth-child(even) {
+        flex-direction: row-reverse;
+      }
+    
+      .feature__2__poster__container {
+        max-width: 20em;
+        height: 100px;
+        padding: 1rem;
+      }
+      .poster__container {
+        width: 20%;
+      }
+      .FAQ__list {
+        padding: 1rem 25rem;
+      }
+      .FAQ__get__started__email {
+        transform: translateX(16%);
+      }
+      footer {
+        padding: 2rem 20rem;
+        justify-content: flex-start;
+        text-align: left;
+        align-items: flex-start;
+        margin-top: 2700px;
+
+      }
+    
+      .footer__row__2 {
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+      }
+    
+      .footer__row__1,
+      .footer__row__3,
+      .footer__row__4 {
+        align-self: flex-start;
+      }
+  }
+  
