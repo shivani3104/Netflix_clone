@@ -34,7 +34,7 @@ project-folder/
 2. Open `index.html` in a web browser to view the page.
 
 ## Screenshots
-![Netflix Clone](./netflix.png)
+![Netflix Clone Screenshot](https://github.com/shivani3104/Netflix_clone/blob/main/netflix.png)
 
 ## License
 This project is for educational purposes and is not affiliated with or endorsed by Netflix.
